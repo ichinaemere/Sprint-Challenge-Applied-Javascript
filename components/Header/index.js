@@ -9,8 +9,6 @@
 //  </div >
 // And add it to the DOM in the .header-container component
 
-window.addEventListener('load', () => {
-
 
 const headerContainer = document.querySelector('.header-container');
 
@@ -30,7 +28,7 @@ function Header() {
     temp.classList.add('temp');
 
     //text content
-    
+
     date.textContent = "MARCH 28, 2019";
     title.textContent = "Lambda Times";
     temp.textContent = "98°";
@@ -42,5 +40,3 @@ function Header() {
 
     return header
 }
-
-})

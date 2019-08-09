@@ -17,7 +17,7 @@
 // </div>
 //
 // Create a card for each of the articles and add the card to the DOM.
-window.addEventListener('load', () => {
+// window.addEventListener('load', () => {
 
 const cards = document.querySelector('.cards-container');
 
@@ -64,5 +64,3 @@ axios.get("https://lambda-times-backend.herokuapp.com/articles")
 
         return card
     }
-
-})    

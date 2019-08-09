@@ -8,8 +8,6 @@
 //  The tab component should look like this:
 //    <div class="tab">topic here</div>
 
-window.addEventListener('load', () =>{
-
 const topics = document.querySelector('.topics');
 
 
@@ -34,6 +32,4 @@ function Tabs(tabData){
     tab.textContent = tabData;
 
     return tab
-}  
-
-})
+} 
